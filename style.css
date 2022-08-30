@@ -1,0 +1,156 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.heading-text{
+    font-size: 40px;
+    font-weight: 500;
+    color: #131313;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ec3399;
+}
+
+p{
+    color: dimgray;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,#ec3399,tomato);
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.biography-banner{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 50px;
+}
+.biography-text{
+    margin-top: 150px;
+    font-weight: 500;
+    
+}
+.latest-work-text{
+    font-weight: 500;
+    text-align: center;
+    
+    
+}
+.work-div{
+    display: flex;
+    justify-content: center;
+    
+}
+.work-one{
+    width: 25%;
+}
+.work-two{
+    width: 25%;
+}
+.work-three{
+    width: 25%;
+}
+.work-one img{
+    width:100% ;
+}
+
+.work-two img{
+    width:100% ;
+}
+
+.work-three img{
+    width:100% ;
+}
+.my-latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    
+}
+.client-text{
+    font-weight: 500;
+    text-align: center;
+}
+
+.client-details h3{
+    text-align: center;
+    font-weight: 500;
+}
+.client-details p{
+    text-align: center;
+}   
+
+.Client{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.client-talk{
+    width: 500px;
+    height: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    color: dimgray;
+
+}
+.client-box{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.text-box{
+    width: 500px;
+    height: 150px;
+    background-image: linear-gradient(45deg,#ec3399,tomato);
+    border-radius: 10px;
+}
+.client-testimonial{
+    height: 550px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-box p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.text-box h4{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    
+}
+
+.footer p{
+    text-align: center;
+}
